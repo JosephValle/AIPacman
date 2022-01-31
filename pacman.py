@@ -92,7 +92,7 @@ class GameState:
             return GhostRules.getLegalActions( self, agentIndex )
 
     def generateChild( self, agentIndex, action):
-        """
+        """ test
         Returns the child state after the specified agent takes the action.
         """
         # Check that children exist
